@@ -106,7 +106,7 @@ function hide1(){
     document.querySelector(".bg").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
     // document.getElementsByClassName("bg")[0].style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
     document.getElementById("comment").innerHTML="CORRECT!!!"; 
-    document.getElementsByClassName("box").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+    same_color();
     
     }
       
@@ -124,7 +124,7 @@ function hide2(){
         
         document.querySelector(".bg").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
         document.getElementById("comment").innerHTML="CORRECT!!!";
-        document.getElementsByClassName("box").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+        same_color();
     }
  
 }
@@ -140,7 +140,7 @@ function hide3(){
         
         document.querySelector(".bg").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
         document.getElementById("comment").innerHTML="CORRECT!!!";
-        document.getElementsByClassName("box").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+        same_color();
     }
  
 }
@@ -157,7 +157,7 @@ function hide4(){
         
         document.querySelector(".bg").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
         document.getElementById("comment").innerHTML="CORRECT!!!";
-        document.getElementsByClassName("box").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+        same_color();
     }
  
 }
@@ -174,7 +174,7 @@ function hide5(){
         
         document.querySelector(".bg").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
         document.getElementById("comment").innerHTML="CORRECT!!!";
-        document.getElementsByClassName("box").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+        same_color();
     }
  
 }
@@ -191,10 +191,18 @@ function hide6(){
         
         document.querySelector(".bg").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
         document.getElementById("comment").innerHTML="CORRECT!!!";
-        document.getElementsByClassName("box").style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+        same_color();
     }
  
 }
+}
+function same_color(){
+    document.getElementsByClassName("box")[0].style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+    document.getElementsByClassName("box")[1].style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+    document.getElementsByClassName("box")[2].style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+    document.getElementsByClassName("box")[3].style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+    document.getElementsByClassName("box")[4].style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
+    document.getElementsByClassName("box")[5].style.backgroundColor="rgb("+val1+", "+val2+", "+val3+")";
 }
 function reset(){
     location.reload();

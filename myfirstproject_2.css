@@ -26,7 +26,7 @@ body{
      /* margin-left: 700px; */
 
 }
-#taskBar{
+#taskBar {
    text-align:left;
     /* line-height: 0px; */
     background-color:rgb(204, 185, 185);
@@ -36,8 +36,14 @@ body{
     padding-right: 500px;
     margin-left :-10px;
     margin-right :-10px;
-    color:rgb(34, 32, 32);
+    color: red;
     font-weight:bold;
+    text-decoration: none;
+    
+
+}
+h1{
+    font-size:xx-large;
 }
 h2{
     font-size: xx-large;
@@ -46,26 +52,62 @@ h2{
 select {
     border:solid black 3px;
 }
-#difficulty{
+/* #difficulty{
     background-color: rgb(171, 187, 208);
-}
+} */
 
 .box{
     
     border:solid black 2px;
-    width :100px;
-    height: 100px;
+    width :120px;
+    height: 120px;
     float: left;
-    margin-right:5%;
-    margin-left:5%;
+    /* margin-right:5%; */
+    /* margin-left:5%; */
     position: relative;
     border-radius:25%;
-    /* visibility:hidden; */
+    visibility:hidden;
     /* position:absolute; */
 
 }
-.padd{
+
+.box3{
+    /* margin-right: 100px;; */
+    margin-left:-3px;
+}
+.box2{
+    margin-right: 500px;
+}
+#bottom{
+    /* position:relative; */
     margin-left: 550px;
+    /* position: absolute; */
+}
+.box0{
+    margin-left: 550px;
+    
+    margin-right: 100px;
+}
+.box1{
+    position: relative;
+    margin-right:100px;
+}
+.box3{
+    margin-right: 100px;
+}
+#easy{
+    background-color: rgb(171, 187, 208);
+    color:red;
+    font-weight: bolder;
+}
+#difficult{
+    color:red;
+    background-color:rgb(171, 187, 208);
+    font-weight: bolder;
+
+}
+.box4{
+margin-right: 100px;
 }
 /* #aryan{
     background-color:white ;

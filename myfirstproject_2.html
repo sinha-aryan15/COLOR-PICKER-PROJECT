@@ -23,24 +23,35 @@
       <h2> &nbsp; &nbsp; &nbsp; &nbsp; COLOR GAME</h2>
     </div>
     <div>
-      <p id="taskBar"> NEW COLOURS  </p>
+      <p id="taskBar" onclick="reset()" > <a href="#">  NEW COLOURS  </a>
+      </p>
+      
     </div>
     <div id ="comment">
 
     </div>
      <div id="btn">
-        <select name="DIFFICULTY" id="difficulty" >
+        <!-- <select name="DIFFICULTY" id="difficulty" >
           <option value="2" >DIFFICULTY</option>
           <option value="1" id ="two" >EASY</option>
           <option value="2" id="three" >HARD</option>
-        </select>
+        </select> -->
+        <button id ="easy" >EASY</button>
+        <button id ="difficult">DIFFICULT</button>
     </div>
     
     <div id="boxes" >
-     <p class ="box padd" id ="0"></p>
-     <p class ="box" id ="1" ></p>
-     <p class ="box" id ="2"></p>
+     <p class ="box box0" id ="0"></p>
+     <p class ="box box1" id ="1" ></p>
+     <p class ="box box2" id ="2"></p>
+     </div>
+     <div id ="bottom">
+     <p class ="box box3" id ="3"></p>
+     <p class ="box box4" id ="4"></p>
+     <p class ="box box5" id ="5"></p>
+
     </div>
     <script src="myfirstproject_2.js"></script>
+
   </body>
 </html>
